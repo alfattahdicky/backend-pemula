@@ -1,0 +1,17 @@
+{
+  "name": "basic-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "NODE_ENV=development node ./basic-nodejs/01/app.js",
+    "start": "NODE_ENV=production node ./basic-nodejs/01/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
+}
